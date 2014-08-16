@@ -1,6 +1,8 @@
-require 'hand'
+require_relative 'hand'
 
 class Player
+  attr_reader :pot, :name, :hand #hand is just for testing
+  
   def initialize(pot, name)
     @pot = pot
     @name = name
@@ -45,6 +47,7 @@ class Player
     puts "Input the cards you want to discard ex) 1 2"
     input = gets.chomp!.split(" ").map{|el|Integer(el)}
     @hand.discard(input)
+    input.length
   end
     
   def hand_reveal

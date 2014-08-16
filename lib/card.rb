@@ -1,5 +1,5 @@
 class Card
-  CARD_NAME = {1=>"Ace", 11=>"Jack", 12=>"Queen", 13=>"King"}
+  CARD_NAME = {14=>"Ace", 11=>"Jack", 12=>"Queen", 13=>"King"}
   
   attr_reader :value, :suit
   
