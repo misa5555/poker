@@ -1,20 +1,3 @@
-# subject(:hand) {Hand.new}
-#
-#
-# ... test hand methods
-#
-#
-# let(:flush_hand) { Hand.new(...) }
-#
-# let(:four_of_kind) { ... }
-#
-#
-# flush_hand.value to eq :flush
-#
-#
-#
-#
-# expect flush_hand.beats?(three-of-kind) to eq(true)
 require 'rspec'
 require 'card'
 require 'hand'
